@@ -17,11 +17,5 @@
         android:icon="@drawable/baseline_map_24"
         android:title="Maps"
         />
-    <item
-        android:id="@id/fragment_calendar"
-        android:icon="@drawable/baseline_calendar_24"
-        android:title="Calendar"
-        />
-
 
 </menu>

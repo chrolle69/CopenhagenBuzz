@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <com.google.android.material.card.MaterialCardView
@@ -42,7 +43,7 @@
 
                     <TextView
                         android:id="@+id/event_item_name"
-                        android:layout_width="match_parent"
+                        android:layout_width="wrap_content"
                         android:layout_height="30dp"
                         android:textAppearance="?attr/textAppearanceTitleMedium">
                     </TextView>
@@ -93,7 +94,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="194dp"
                 android:scaleType="centerCrop"
-                android:contentDescription="event_image" />
+                android:contentDescription="@string/event_image" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -135,22 +136,24 @@
                 android:layout_gravity="end"
                 android:orientation="horizontal">
 
-
+                <FrameLayout
+                    android:id="@+id/edit_button_container"
+                    android:layout_width="wrap_content"
+                    android:visibility="gone"
+                    android:layout_height="wrap_content">
                 <com.google.android.material.button.MaterialButton
+                    android:id="@+id/edit_event_button"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="8dp"
-                    android:text="Edit"
-                    android:textColor="@color/material_dynamic_neutral0"
+                    android:text="@string/edit"
+                    android:focusable="false"
+                    android:textColor="@color/black"
                     android:backgroundTint="@color/white"
                     app:strokeColor="@color/black"
                     app:strokeWidth="0.5dp"
                     />
-                <com.google.android.material.button.MaterialButton
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Info"
-                    />
+                </FrameLayout>
             </LinearLayout>
 
         </LinearLayout>

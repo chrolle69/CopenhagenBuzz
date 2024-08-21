@@ -55,5 +55,54 @@
         libero vel nunc consequat, quis tincidunt nisl eleifend. Cras bibendum enim a justo luctus
         vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
     </string>
+    <string name="login">Login</string>
+    <string name="guest">Guest</string>
+    <string name="event_image">event_image</string>
+    <string name="edit">Edit</string>
+    <string name="info">Info</string>
+    <string name="calendar">Calendar</string>
+    <string name="maps">Maps</string>
+    <string name="user_info_title">User info</string>
+    <string name="unknown_user">Unknown User</string>
+    <string name="logout">Logout</string>
+    <string name="new_event">New Event</string>
+    <string name="choose_date">Choose Date</string>
+    <string name="title_activity_edit_event">EditEventActivity</string>
+    <string name="new_event_name">New Event name</string>
+    <string name="new_event_location">New Event location</string>
+    <string name="new_event_date">New Event date</string>
+    <string name="new_event_type">New Event type</string>
+    <string name="new_event_description">New Event Description</string>
+    <string name="cancel">Cancel</string>
+    <string name="confirm">Confirm</string>
+    <string name="delete">Delete</string>
+
+    <string name="button_stop">Stop</string>
+    <string name="button_start">Start</string>
+
+
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyAC6LTNYeee_A2BlSBjkQofD1b3Nflxo_o</string>
+    <string name="preference_file_key">dk.itu.moapd.copenhagenbuzz.lgul.PREFERENCE_FILE_KEY</string>
+    <string name="geocode_api_key">660e7ff87fa08509311555kegc88d7d</string>
+    <string name="text_not_available">Not available</string>
+    <string name="text_latitude">Latitude</string>
+    <string name="text_longitude">Longtitude</string>
+    <string name="text_altitude">Altitude</string>
+    <string name="text_speed">Speed</string>
+    <string name="text_time">Time</string>
+    <string name="text_speed_km">Speed in km</string>
+    <string name="button_camera_switch_description">Switch</string>
+    <string name="button_image_capture_description">Capture</string>
+    <string name="button_image_viewer_description">Gallery</string>
+    <string name="image_view_description">Last image taken</string>
+    <string name="button_back_description">Back</string>
+    <string name="title_activity_take_picture">TakePictureActivity</string>
+    <string name="take_picture">Take Picture</string>
+    <string name="choose_picture">Choose Picture</string>
+    <string name="face_authentication">Face authentication</string>
+    <string name="enable_face_authentication">Enable Face Authentication</string>
+    <string name="mouth_mad_smile">Mouth mad/smile</string>
+    <string name="right_eye_closed_open">Right eye closed/open</string>
+    <string name="left_eye_closed_open">Left eye closed/open</string>
 
 </resources>
