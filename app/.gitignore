@@ -1,0 +1,4 @@
+/build
+google-services
+**/assets/env
+**/values/strings.xml
