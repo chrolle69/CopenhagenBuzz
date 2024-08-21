@@ -13,3 +13,7 @@
 .externalNativeBuild
 .cxx
 local.properties
+/app/build
+/app/google-services
+/app/src/main/assets/env
+/app/src/main/res/values/strings
